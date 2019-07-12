@@ -4,9 +4,10 @@
   "description": "",
   "main": "index.html",
   "dependencies": {
-    "jquery": "^3.4.1",
+    "@fortawesome/fontawesome-free": "^5.9.0",
     "bootstrap": "^4.3.1",
-    "google-fonts-plugin": "^4.1.0"
+    "google-fonts-plugin": "^4.1.0",
+    "jquery": "^3.4.1"
   },
   "devDependencies": {},
   "scripts": {
