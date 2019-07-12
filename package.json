@@ -1,0 +1,25 @@
+{
+  "name": "isaiah22",
+  "version": "1.0.0",
+  "description": "",
+  "main": "index.html",
+  "dependencies": {
+    "jquery": "^3.4.1",
+    "bootstrap": "^4.3.1",
+    "google-fonts-plugin": "^4.1.0"
+  },
+  "devDependencies": {},
+  "scripts": {
+    "test": "echo \"Error: no test specified\" && exit 1"
+  },
+  "repository": {
+    "type": "git",
+    "url": "git+https://github.com/jeremybuesking/isaiah22.git"
+  },
+  "author": "",
+  "license": "MIT",
+  "bugs": {
+    "url": "https://github.com/jeremybuesking/isaiah22/issues"
+  },
+  "homepage": "https://github.com/jeremybuesking/isaiah22#readme"
+}
