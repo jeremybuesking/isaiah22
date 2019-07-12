@@ -1,0 +1,326 @@
+@import url("https://fonts.googleapis.com/css?family=Lato&display=swap");
+
+body {
+  font-family: "Lato", sans-serif;
+  margin-top: 5.7rem;
+  /* background-color: var(--light); */
+  /* width: 200%; */
+}
+
+.navbar,
+.nav-link,
+.navbar-brand,
+.Navbar-logo {
+  transition: all 1s, background-color 0s, color 0.2s;
+}
+.navbar-brand {
+  text-transform: uppercase;
+}
+.navbar-transform {
+  background-color: rgb(49, 51, 65) !important;
+}
+.navbar-transform .nav-link {
+  color: white !important;
+}
+.navbar-transform .navbar-brand {
+  color: white !important;
+  font-size: 100% !important;
+}
+.navbar-transform .Navbar-logo {
+  width: 34px !important;
+  height: 34px !important;
+}
+
+.jumbotron {
+  background-repeat: no-repeat;
+  background-size: cover;
+  background-position: center;
+  margin-bottom: 0;
+  text-align: center;
+  padding: 5px;
+}
+.Home-jumbo {
+  background-image: url("/images/snow-mountains.png");
+  height: 600px;
+}
+.Home-jumbo h1 {
+  color: white;
+  text-transform: uppercase;
+  padding-top: 7rem;
+}
+.Home-jumbo h2 {
+  color: white;
+}
+.jumbotron-button {
+  margin-top: 20px;
+}
+
+.CourseList-jumbo-img {
+  height: 350px;
+  display: block;
+  margin: 0 auto;
+  margin-bottom: 10px;
+}
+.CourseList-item {
+  text-align: center;
+  margin: 10px;
+}
+
+.Home-content {
+  margin-bottom: 2rem;
+}
+.Home-content-icon {
+  padding-top: 1em;
+}
+.Home-content-header {
+  margin-bottom: 75px;
+  font-size: 275%;
+}
+.Home-course-image {
+  height: 200px;
+  background-repeat: no-repeat;
+  background-size: contain;
+  background-position: center;
+}
+
+.Home-founder {
+  background-color: #1360dd;
+}
+.Home-founder-divider {
+  background-image: url("https://isaiah22.com/wp-content/uploads/2019/01/brush-stroke-divider-top-1.png");
+  height: 35px;
+  background-repeat: repeat-x;
+  background-position: top;
+}
+.Home-founder-content {
+  padding: 20px;
+}
+.Home-founder-content img {
+  border: 5px solid black;
+  margin-bottom: 15px;
+}
+
+.Home-signup {
+  background-image: url("/images/home/adventure-mountain-altitude-clouds.jpg");
+  background-repeat: no-repeat;
+  background-size: cover;
+  background-position: center;
+  height: 300px;
+  display: flex;
+  align-items: center;
+}
+
+.footer-copy {
+  font-size: 70%;
+}
+
+.Section-header {
+  border-top: 3px solid black;
+  border-bottom: 3px solid black;
+  text-align: center;
+}
+.Courses-jumbo {
+  background-image: url("/images/courses/Honor.jpg");
+  background-size: contain;
+  /* height: 400px; */
+}
+.Teachers-item {
+  text-align: center;
+}
+.Teachers-item img {
+  height: 325px;
+  width: 300px;
+  margin: 0 auto;
+}
+
+.MyCourses-content .container {
+  display: flex;
+  flex-direction: column-reverse;
+}
+.MyCourses-lesson-list {
+  flex-basis: 45%;
+}
+.MyCourses-lesson-item {
+  color: black;
+  display: flex;
+  border: 1px solid black;
+  padding: 0.5em;
+  margin-bottom: 12px;
+}
+.MyCourses-image {
+  background-repeat: no-repeat;
+  background-size: contain;
+  background-position: center;
+  width: 177px;
+  height: 120px;
+}
+.MyCourses-lesson-item:hover {
+  color: black;
+  box-shadow: 0px 0px 8.5px black;
+  text-decoration: none;
+}
+.MyCourses-sidebar-list {
+  margin-left: 15px;
+}
+
+.CourseOutline-header {
+  padding-top: 10px;
+  margin-bottom: 50px;
+}
+.CourseOutline-header .container {
+  display: flex;
+  text-align: center;
+  justify-content: space-between;
+}
+.CourseOutline-header-text {
+  flex-grow: 1;
+  margin-top: 20px;
+}
+.CourseOutline-content .container {
+  display: flex;
+}
+.CourseOutline-session-item img {
+  max-height: 100px;
+}
+.CourseOutline-session-item {
+  color: black;
+  display: flex;
+  border: 1px solid black;
+  padding: 0.5em;
+  margin-bottom: 12px;
+}
+.CourseOutline-session-item:hover {
+  color: black;
+  box-shadow: 0px 0px 8.5px black;
+  text-decoration: none;
+}
+.CourseOutline-sidebar-list {
+  margin-left: 15px;
+  width: 400px;
+}
+
+.Lesson-header {
+  text-align: center;
+  padding: 1rem;
+}
+.Lesson-header-title {
+  text-decoration: underline;
+}
+.Lesson-content .container {
+  display: flex;
+}
+.Lesson-content-info {
+  flex-basis: 65%;
+}
+
+.CourseLanding-image {
+  max-width: 700px;
+  margin: 0 auto;
+  padding: 0;
+}
+.CourseLanding-video {
+  position: relative;
+  padding-bottom: 26.25%;
+  padding-top: 75px;
+  height: 0;
+}
+.CourseLanding-video iframe {
+  position: absolute;
+  top: 0;
+  left: 0;
+  width: 100%;
+  height: 100%;
+}
+.CourseLanding-pricing-list {
+  display: flex;
+  justify-content: space-evenly;
+  padding-bottom: 1em;
+}
+.CourseLanding-pricing-item {
+  flex-basis: 400px;
+}
+.CourseLanding-pricing-item .btn {
+  padding: 0.75em;
+}
+
+.CourseLanding-content {
+  padding: 1.5em;
+}
+.CourseLanding-divider {
+  border-bottom: 2px solid black;
+}
+
+.CourseLanding-breakdown-list {
+  padding-left: 4em;
+  padding-right: 4em;
+}
+.CourseLanding-breakdown-title {
+  font-style: italic;
+  margin-top: 0;
+  margin-bottom: 15px;
+}
+.CourseLanding-breakdown-text {
+  margin-bottom: 50px;
+}
+
+.CourseLanding-bio {
+  /* background-color: lightgray; */
+  padding: 2.5em;
+}
+.CourseLanding-call {
+  background-color: slategray;
+  text-align: center;
+}
+.CourseLanding-call .container {
+  color: white;
+  padding: 1.5em;
+}
+
+.Bio-header {
+  text-align: center;
+  padding: 0.5em;
+  text-decoration: underline;
+}
+.Bio-courses-content h3 {
+  text-align: center;
+  margin-top: 1.1em;
+}
+
+.Account-header {
+  text-decoration: underline;
+  text-align: center;
+  padding: 20px;
+}
+.Account-bar {
+  display: flex;
+  justify-content: space-between;
+}
+
+.Login-header {
+  text-decoration: underline;
+  text-align: center;
+  padding: 20px;
+}
+
+@media only screen and (max-width: 767px) {
+  .CourseOutline-sidebar-list {
+    order: -1;
+  }
+  .CourseOutline-content .container {
+    flex-direction: column;
+  }
+  .CourseOutline-header .container {
+    flex-direction: column;
+  }
+}
+@media only screen and (max-width: 575px) {
+  .CourseOutline-session-item {
+    flex-direction: column;
+  }
+  .CourseOutline-session-item img {
+    max-width: 150px;
+  }
+  .MyCourses-lesson-text h4 {
+    font-size: 100%;
+  }
+}
