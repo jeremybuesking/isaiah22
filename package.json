@@ -2,10 +2,11 @@
   "name": "isaiah22",
   "version": "1.0.0",
   "description": "",
-  "main": "index.html",
+  "main": "index.js",
   "dependencies": {
     "@fortawesome/fontawesome-free": "^5.9.0",
     "bootstrap": "^4.3.1",
+    "express": "^4.17.1",
     "google-fonts-plugin": "^4.1.0",
     "jquery": "^3.4.1"
   },
