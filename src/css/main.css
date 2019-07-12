@@ -42,14 +42,11 @@ body {
 .Home-jumbo {
   background-image: url("/images/snow-mountains.png");
   height: 600px;
+  color: white;
 }
 .Home-jumbo h1 {
-  color: white;
   text-transform: uppercase;
-  padding-top: 7rem;
-}
-.Home-jumbo h2 {
-  color: white;
+  padding-top: 4rem;
 }
 .jumbotron-button {
   margin-top: 20px;
@@ -76,6 +73,10 @@ body {
   margin-bottom: 75px;
   font-size: 275%;
 }
+
+.Home-course {
+  background-color: white;
+}
 .Home-course-image {
   height: 200px;
   background-repeat: no-repeat;
@@ -94,6 +95,7 @@ body {
 }
 .Home-founder-content {
   padding: 20px;
+  color: white;
 }
 .Home-founder-content img {
   border: 5px solid black;
@@ -108,10 +110,6 @@ body {
   height: 300px;
   display: flex;
   align-items: center;
-}
-
-.footer-copy {
-  font-size: 70%;
 }
 
 .Section-header {
@@ -300,6 +298,19 @@ body {
   text-decoration: underline;
   text-align: center;
   padding: 20px;
+}
+
+.footer {
+  margin: 0;
+  padding: 1rem;
+  background-color: rgb(33, 37, 41);
+  color: white;
+}
+.footer-copy {
+  font-size: 70%;
+}
+.footer-copy a {
+  color: white;
 }
 
 @media only screen and (max-width: 767px) {
