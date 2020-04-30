@@ -8,7 +8,7 @@
     "bootstrap": "^4.3.1",
     "express": "^4.17.1",
     "google-fonts-plugin": "^4.1.0",
-    "jquery": "^3.4.1"
+    "jquery": "^3.5.0"
   },
   "devDependencies": {},
   "scripts": {
